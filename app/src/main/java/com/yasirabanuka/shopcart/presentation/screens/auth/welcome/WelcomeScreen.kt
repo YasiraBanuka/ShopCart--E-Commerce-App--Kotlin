@@ -21,12 +21,6 @@ import com.yasirabanuka.shopcart.ui.theme.welcomeStatusBarColor
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 
-/**
- * @created 29/06/2022 - 9:17 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 @Destination
 @Composable
 fun WelcomeScreen(
@@ -40,14 +34,15 @@ fun WelcomeScreen(
 
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
-            painter = painterResource(id = R.drawable.banner_image),
+            painter = painterResource(id = R.drawable.welcome_image),
             contentDescription = null,
-            modifier = Modifier.fillMaxSize(),
-            contentScale = ContentScale.Crop
+            modifier = Modifier.fillMaxSize().align(Alignment.TopCenter),
+            contentScale = ContentScale.Inside
         )
 
-        Row(
-            horizontalArrangement = Arrangement.SpaceEvenly,
+        Column(
+            verticalArrangement = Arrangement.Bottom,
+            horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 20.dp, vertical = 30.dp)
@@ -56,28 +51,30 @@ fun WelcomeScreen(
             Button(
                 modifier = Modifier
                     .height(50.dp)
-                    .weight(1f),
+                    .fillMaxWidth(),
                 shape = RoundedCornerShape(10.dp),
                 onClick = { navigator.navigate(LoginScreenDestination) }
             ) {
-                Text(text = "Login", style = MaterialTheme.typography.button)
+                Text(text = "LOGIN", style = MaterialTheme.typography.button)
             }
 
-            Spacer(modifier = Modifier.width(10.dp))
+            Spacer(modifier = Modifier.height(15.dp))
 
             OutlinedButton(
                 modifier = Modifier
                     .height(50.dp)
-                    .weight(1f),
+                    .fillMaxWidth(),
                 shape = RoundedCornerShape(10.dp),
-                border = BorderStroke(width = 1.dp, color = Color.White),
+                border = BorderStroke(width = 1.dp, color = Color.Black),
                 colors = ButtonDefaults.outlinedButtonColors(
                     backgroundColor = Color.Transparent
                 ),
                 onClick = { navigator.navigate(RegisterScreenDestination) }
             ) {
-                Text(text = "Register", style = MaterialTheme.typography.button)
+                Text(text = "REGISTER", style = MaterialTheme.typography.button)
             }
+
+            Spacer(modifier = Modifier.height(30.dp))
         }
     }
 }
