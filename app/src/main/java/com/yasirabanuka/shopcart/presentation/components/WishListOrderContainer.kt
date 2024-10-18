@@ -92,7 +92,7 @@ fun WishListOrderContainer(
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Text(
-                        text = "$${product.formatPrice()}",
+                        text = "LKR ${product.formatPrice()}",
                         style = MaterialTheme.typography.h2,
                         fontSize = 14.sp
                     )

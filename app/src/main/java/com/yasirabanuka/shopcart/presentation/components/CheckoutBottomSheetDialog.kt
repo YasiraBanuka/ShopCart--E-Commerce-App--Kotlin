@@ -56,7 +56,7 @@ fun SheetContent(
 
         Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
             Text(text = "Price (${checkoutState.items} items)", style = MaterialTheme.typography.body1)
-            Text(text = "$${checkoutState.price}", style = MaterialTheme.typography.body1)
+            Text(text = "LKR ${checkoutState.price}", style = MaterialTheme.typography.body1)
         }
 
         Spacer(modifier = Modifier.height(10.dp))
@@ -74,7 +74,7 @@ fun SheetContent(
 
         Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
             Text(text = "Grand Total", style = MaterialTheme.typography.h2, fontSize = 16.sp)
-            Text(text = "$${checkoutState.grandTotal}", style = MaterialTheme.typography.h2, fontSize = 16.sp)
+            Text(text = "LKR ${checkoutState.grandTotal}", style = MaterialTheme.typography.h2, fontSize = 16.sp)
         }
 
         Spacer(modifier = Modifier.height(30.dp))

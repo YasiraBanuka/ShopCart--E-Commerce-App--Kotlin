@@ -210,7 +210,7 @@ fun ColumnScope.ProductDetailSection(
         ) {
             Column {
                 Text(text = "Price", style = MaterialTheme.typography.body1, color = disableColor)
-                Text(text = "$${productDto.price}", style = MaterialTheme.typography.h2)
+                Text(text = "LKR ${productDto.price}", style = MaterialTheme.typography.h2)
             }
 
             TextButton(

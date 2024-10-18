@@ -209,7 +209,7 @@ fun ProductSection(
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Text(
-                            text = "$${productsDto.formatPrice()}",
+                            text = "LKR ${productsDto.formatPrice()}",
                             style = MaterialTheme.typography.h2,
                             fontSize = 13.sp
                         )
