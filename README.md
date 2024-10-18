@@ -1,8 +1,5 @@
 
-# BuyCart 🛒
-Android shopping app built with Jetpack Compose consuming [FAKE STORE API](https://fakestoreapi.com/)
-
-- I am trying to learn and follow some standard Android architecture designs, pardon any mistakes you might encounter
+# ShopCart 🛒  E-Commerce App (Android | Jetpack Compose)
 
 ## ScreenShots
 
