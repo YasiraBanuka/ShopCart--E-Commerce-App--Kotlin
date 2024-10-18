@@ -1,10 +1,6 @@
 package com.yasirabanuka.shopcart.utils
 
-/**
- * @created 18/06/2022 - 1:49 PM
- * @project ComposePokedex
- * @author  ifechukwu.udorji
- */
+
 object Constants {
 
     const val USER_IS_LOGGED_IN = "USER_IS_LOGGED_IN"

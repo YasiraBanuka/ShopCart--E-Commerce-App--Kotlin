@@ -16,11 +16,7 @@ import com.yasirabanuka.shopcart.ui.theme.disableColor
 import com.yasirabanuka.shopcart.ui.theme.primaryColor
 import com.yasirabanuka.shopcart.utils.noRippleClickable
 
-/**
- * @created 14/07/2022 - 2:26 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 
 @OptIn(ExperimentalMaterialApi::class)
 @Composable

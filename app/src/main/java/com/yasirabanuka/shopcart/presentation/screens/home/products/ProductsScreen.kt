@@ -45,12 +45,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
 import java.lang.Exception
 
-/**
- * @created 08/07/2022 - 4:49 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Destination
 @Composable

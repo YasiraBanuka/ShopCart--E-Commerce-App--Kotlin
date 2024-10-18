@@ -20,12 +20,6 @@ import com.yasirabanuka.shopcart.R
 import com.yasirabanuka.shopcart.ui.theme.BuyCartTheme
 import com.yasirabanuka.shopcart.ui.theme.primaryColor
 
-/**
- * @created 05/07/2022 - 2:04 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 @Composable
 fun CustomAlertDialog(onDismissRequest: () -> Unit) {
     Dialog(onDismissRequest = { onDismissRequest() }) {

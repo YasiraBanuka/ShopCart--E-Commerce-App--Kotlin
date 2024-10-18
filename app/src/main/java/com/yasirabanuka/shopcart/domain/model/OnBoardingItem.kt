@@ -2,11 +2,6 @@ package com.yasirabanuka.shopcart.domain.model
 
 import com.yasirabanuka.shopcart.R
 
-/**
- * @created 26/06/2022 - 3:59 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 data class OnBoardingItem(
     val image: Int,
     val title: Int,

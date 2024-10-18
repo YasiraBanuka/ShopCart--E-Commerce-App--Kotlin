@@ -21,11 +21,6 @@ import com.yasirabanuka.shopcart.utils.ConnectionState
 import com.yasirabanuka.shopcart.utils.connectivityState
 import kotlinx.coroutines.delay
 
-/**
- * @created 20/06/2022 - 4:03 AM
- * @project ComposePokedex
- * @author  ifechukwu.udorji
- */
 
 @Composable
 fun ConnectivityStatusBox(

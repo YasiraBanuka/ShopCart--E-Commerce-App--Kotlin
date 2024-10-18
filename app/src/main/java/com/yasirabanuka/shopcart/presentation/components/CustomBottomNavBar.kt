@@ -17,11 +17,6 @@ import com.yasirabanuka.shopcart.ui.theme.disableColor
 import com.yasirabanuka.shopcart.ui.theme.primaryColor
 import com.yasirabanuka.shopcart.R
 
-/**
- * @created 07/07/2022 - 10:01 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 sealed class BottomNavItem(val iconRes: Int, val destination: Destination) {
     object HomeScreen : BottomNavItem(R.drawable.ic_home, HomeScreenDestination)

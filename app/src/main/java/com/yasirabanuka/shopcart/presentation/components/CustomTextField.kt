@@ -19,11 +19,7 @@ import androidx.compose.ui.text.input.*
 import androidx.compose.ui.unit.dp
 import com.yasirabanuka.shopcart.ui.theme.*
 
-/**
- * @created 01/07/2022 - 8:41 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 @Composable
 fun CustomTextField(
     label: String,

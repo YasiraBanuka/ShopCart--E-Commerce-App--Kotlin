@@ -31,12 +31,6 @@ import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.flow.collectLatest
 
-/**
- * @created 29/06/2022 - 8:57 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 @Destination
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @OptIn(ExperimentalComposeUiApi::class)

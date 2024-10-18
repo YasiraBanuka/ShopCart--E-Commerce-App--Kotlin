@@ -4,11 +4,7 @@ import android.content.SharedPreferences
 import com.yasirabanuka.shopcart.utils.Constants
 import javax.inject.Inject
 
-/**
- * @created 29/06/2022 - 9:48 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 class SharedPrefUtil @Inject constructor(
     private val sharedPreferences: SharedPreferences
 ) {

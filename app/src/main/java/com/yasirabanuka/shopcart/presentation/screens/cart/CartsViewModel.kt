@@ -17,11 +17,6 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/**
- * @created 14/07/2022 - 5:54 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @HiltViewModel
 class CartsViewModel @Inject constructor(

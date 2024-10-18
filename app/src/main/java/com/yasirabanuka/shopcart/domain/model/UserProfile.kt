@@ -7,11 +7,6 @@ import com.yasirabanuka.shopcart.data.remote.dto.request.Address
 import com.yasirabanuka.shopcart.data.remote.dto.request.Name
 import kotlinx.parcelize.Parcelize
 
-/**
- * @created 28/06/2022 - 4:23 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @Entity(tableName = "user_profile")
 @Parcelize

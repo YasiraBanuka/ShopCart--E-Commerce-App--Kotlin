@@ -15,11 +15,6 @@ import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
 
-/**
- * @created 19/06/2022 - 3:45 PM
- * @project ComposePokedex
- * @author  ifechukwu.udorji
- */
 sealed class ConnectionState {
     object Available: ConnectionState()
     object UnAvailable: ConnectionState()

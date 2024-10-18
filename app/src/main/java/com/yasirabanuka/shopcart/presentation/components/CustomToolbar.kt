@@ -16,11 +16,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.yasirabanuka.shopcart.R
 
-/**
- * @created 19/07/2022 - 4:18 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @Composable
 fun CustomToolbar(

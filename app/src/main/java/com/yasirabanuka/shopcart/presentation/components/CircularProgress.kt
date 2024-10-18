@@ -9,11 +9,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.yasirabanuka.shopcart.ui.theme.secondaryColor
 
-/**
- * @created 11/07/2022 - 7:43 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 
 @Composable
 fun CircularProgress(

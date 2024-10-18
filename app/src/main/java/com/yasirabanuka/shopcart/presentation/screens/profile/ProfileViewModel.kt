@@ -18,11 +18,6 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/**
- * @created 15/07/2022 - 6:18 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 @HiltViewModel
 class ProfileViewModel @Inject constructor(
     private val sharedPrefUtil: SharedPrefUtil,

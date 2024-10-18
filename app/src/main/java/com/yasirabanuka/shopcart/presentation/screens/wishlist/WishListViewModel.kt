@@ -16,11 +16,7 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.receiveAsFlow
 import javax.inject.Inject
 
-/**
- * @created 12/07/2022 - 6:08 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 @HiltViewModel
 class WishListViewModel @Inject constructor(
     private val wishListUseCase: WishListUseCase

@@ -8,11 +8,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
 import dagger.hilt.android.scopes.ViewModelScoped
 
-/**
- * @created 23/06/2022 - 9:38 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @Module
 @InstallIn(ViewModelComponent::class)

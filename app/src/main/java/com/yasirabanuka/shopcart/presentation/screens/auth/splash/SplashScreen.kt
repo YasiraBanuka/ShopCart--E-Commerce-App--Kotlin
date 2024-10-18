@@ -23,11 +23,6 @@ import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.delay
 
-/**
- * @created 26/06/2022 - 4:02 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @RootNavGraph(start = true)
 @Destination

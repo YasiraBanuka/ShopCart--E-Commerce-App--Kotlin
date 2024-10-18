@@ -9,11 +9,6 @@ import com.yasirabanuka.shopcart.ui.theme.backgroundColor
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 
-/**
- * @created 20/07/2022 - 2:37 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @Destination
 @Composable

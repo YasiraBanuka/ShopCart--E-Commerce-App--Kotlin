@@ -7,11 +7,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
-/**
- * @created 10/07/2022 - 8:49 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 class CartUseCase @Inject constructor(
     private val cartRepository: CartRepository

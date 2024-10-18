@@ -7,11 +7,7 @@ import com.yasirabanuka.shopcart.domain.model.UserProfile
 import com.yasirabanuka.shopcart.domain.repository.ProfileRepository
 import javax.inject.Inject
 
-/**
- * @created 17/07/2022 - 1:18 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 class ProfileRepositoryImpl @Inject constructor(
     private val buyCartApi: BuyCartApi,
     private val buyCartDao: BuyCartDao

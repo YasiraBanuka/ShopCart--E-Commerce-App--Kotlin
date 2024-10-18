@@ -14,12 +14,6 @@ import androidx.compose.ui.unit.dp
 import com.yasirabanuka.shopcart.ui.theme.disableColor
 import com.yasirabanuka.shopcart.ui.theme.primaryColor
 
-/**
- * @created 26/06/2022 - 2:59 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 @Composable
 fun Indicators(
     size: Int,

@@ -6,11 +6,6 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
 import com.yasirabanuka.shopcart.ui.theme.backgroundColor
 
-/**
- * @created 09/07/2022 - 2:02 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @Composable
 fun CustomScaffold(

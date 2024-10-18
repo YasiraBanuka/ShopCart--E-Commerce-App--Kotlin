@@ -5,11 +5,7 @@ import com.yasirabanuka.shopcart.domain.model.Product
 import com.yasirabanuka.shopcart.domain.model.ProductInCart
 import com.yasirabanuka.shopcart.domain.model.UserProfile
 
-/**
- * @created 28/06/2022 - 4:36 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 
 @Dao
 interface BuyCartDao {

@@ -14,11 +14,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
-/**
- * @created 23/06/2022 - 9:38 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @Module
 @InstallIn(SingletonComponent::class)

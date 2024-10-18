@@ -33,12 +33,6 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
-/**
- * @created 08/07/2022 - 4:49 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 @OptIn(ExperimentalMaterialApi::class)
 @Destination
 @Composable

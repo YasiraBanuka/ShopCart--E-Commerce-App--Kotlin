@@ -35,11 +35,7 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
-/**
- * @created 11/07/2022 - 11:04 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 
 data class ProductDetailScreenNavArgs(
     val productId: Int

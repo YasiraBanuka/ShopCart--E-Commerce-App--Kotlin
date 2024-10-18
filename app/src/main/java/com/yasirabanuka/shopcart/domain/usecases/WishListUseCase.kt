@@ -9,11 +9,7 @@ import kotlinx.coroutines.flow.flow
 import java.lang.Exception
 import javax.inject.Inject
 
-/**
- * @created 06/07/2022 - 8:45 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 class WishListUseCase @Inject constructor(
     private val wishListRepository: WishListRepository,
 ) {

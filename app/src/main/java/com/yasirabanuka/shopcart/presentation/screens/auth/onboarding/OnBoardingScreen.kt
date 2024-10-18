@@ -34,12 +34,6 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.launch
 import com.yasirabanuka.shopcart.R
 
-/**
- * @created 26/06/2022 - 4:18 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 @Destination
 @OptIn(ExperimentalPagerApi::class)
 @Composable

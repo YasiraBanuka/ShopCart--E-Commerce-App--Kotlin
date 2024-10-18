@@ -3,11 +3,7 @@ package com.yasirabanuka.shopcart.data.remote.dto.request
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
-/**
- * @created 28/06/2022 - 3:51 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 data class ProfileDto(
     val username: String,
     val password: String,

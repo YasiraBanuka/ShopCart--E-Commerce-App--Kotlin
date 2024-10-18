@@ -23,11 +23,6 @@ import coil.compose.AsyncImage
 import com.yasirabanuka.shopcart.domain.model.Product
 import com.yasirabanuka.shopcart.R
 
-/**
- * @created 12/07/2022 - 8:01 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 
 @Composable
 fun WishListOrderContainer(

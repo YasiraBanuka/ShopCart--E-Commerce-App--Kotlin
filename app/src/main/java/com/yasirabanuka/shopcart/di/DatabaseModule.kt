@@ -13,11 +13,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-/**
- * @created 23/06/2022 - 9:38 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 
 @Module
 @InstallIn(SingletonComponent::class)

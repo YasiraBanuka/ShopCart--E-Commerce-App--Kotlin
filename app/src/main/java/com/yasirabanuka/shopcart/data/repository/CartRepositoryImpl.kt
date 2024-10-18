@@ -5,11 +5,7 @@ import com.yasirabanuka.shopcart.domain.model.ProductInCart
 import com.yasirabanuka.shopcart.domain.repository.CartRepository
 import javax.inject.Inject
 
-/**
- * @created 28/06/2022 - 8:12 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 class CartRepositoryImpl @Inject constructor(
     private val buyCartDao: BuyCartDao
 ): CartRepository{

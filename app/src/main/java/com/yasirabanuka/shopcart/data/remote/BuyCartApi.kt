@@ -10,11 +10,7 @@ import retrofit2.http.GET
 import retrofit2.http.POST
 import retrofit2.http.Path
 
-/**
- * @created 28/06/2022 - 3:07 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 interface BuyCartApi {
 
     //Login

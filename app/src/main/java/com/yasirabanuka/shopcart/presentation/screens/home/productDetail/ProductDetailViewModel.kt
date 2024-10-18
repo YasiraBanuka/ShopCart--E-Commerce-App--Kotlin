@@ -22,11 +22,6 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-/**
- * @created 11/07/2022 - 5:50 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 @HiltViewModel
 class ProductDetailViewModel @Inject constructor(
     private val productUseCase: ProductUseCase,

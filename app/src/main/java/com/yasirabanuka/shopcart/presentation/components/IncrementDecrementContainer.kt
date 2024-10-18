@@ -18,12 +18,6 @@ import androidx.compose.ui.unit.sp
 import com.yasirabanuka.shopcart.R
 import com.yasirabanuka.shopcart.ui.theme.backgroundColor
 
-/**
- * @created 13/07/2022 - 9:23 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
-
 
 @Composable
 fun IncrementDecrementContainer(

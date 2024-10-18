@@ -12,11 +12,6 @@ import java.io.IOException
 import java.lang.Exception
 import javax.inject.Inject
 
-/**
- * @created 17/07/2022 - 1:12 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 class ProfileUseCase @Inject constructor(
     private val profileRepository: ProfileRepository
 ) {

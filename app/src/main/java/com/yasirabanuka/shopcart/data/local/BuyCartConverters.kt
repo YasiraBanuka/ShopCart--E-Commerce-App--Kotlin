@@ -9,11 +9,7 @@ import com.yasirabanuka.shopcart.data.remote.dto.request.Name
 import com.yasirabanuka.shopcart.domain.model.PaymentInfo
 import javax.inject.Inject
 
-/**
- * @created 12/07/2022 - 5:06 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 @ProvidedTypeConverter
 class BuyCartConverters @Inject constructor(
     private val gson: Gson

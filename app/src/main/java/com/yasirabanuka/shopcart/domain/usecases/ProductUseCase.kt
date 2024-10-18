@@ -9,11 +9,6 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
-/**
- * @created 06/07/2022 - 8:45 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 class ProductUseCase @Inject constructor(
     private val productsRepository: ProductsRepository,
 ) {

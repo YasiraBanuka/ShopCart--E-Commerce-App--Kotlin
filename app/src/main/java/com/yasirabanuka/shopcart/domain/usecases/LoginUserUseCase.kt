@@ -11,11 +11,6 @@ import retrofit2.HttpException
 import java.io.IOException
 import javax.inject.Inject
 
-/**
- * @created 30/06/2022 - 2:38 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
 class LoginUserUseCase @Inject constructor(
     private val authRepository: AuthRepository
 ) {

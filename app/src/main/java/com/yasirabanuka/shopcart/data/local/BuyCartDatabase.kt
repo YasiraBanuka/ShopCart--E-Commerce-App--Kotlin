@@ -7,11 +7,7 @@ import com.yasirabanuka.shopcart.domain.model.UserProfile
 import com.yasirabanuka.shopcart.domain.model.Product
 import com.yasirabanuka.shopcart.domain.model.ProductInCart
 
-/**
- * @created 12/07/2022 - 4:34 AM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 
 @Database(
     entities = [

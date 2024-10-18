@@ -8,11 +8,7 @@ import com.yasirabanuka.shopcart.data.remote.dto.response.LoginResponse
 import com.yasirabanuka.shopcart.domain.repository.AuthRepository
 import javax.inject.Inject
 
-/**
- * @created 28/06/2022 - 8:12 PM
- * @project BuyCart
- * @author  ifechukwu.udorji
- */
+
 class AuthRepositoryImpl @Inject constructor(
     private val buyCartApi: BuyCartApi
 ): AuthRepository{
